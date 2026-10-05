@@ -8,11 +8,9 @@ This repository contains a school project focused on the practical application o
 The project consists of the following key Python scripts:
 
 *   **`preprocess.py`**: Handles the data loading, cleaning, and preprocessing steps. This prepares the raw wine quality dataset for model training (e.g., handling missing values, scaling features, train/test splitting).
-*   **`count.py`**: A utility script likely used for Exploratory Data Analysis (EDA), counting target class distributions, or data summarization.
-*   **`wine_quality.py`**: The main or baseline machine learning script used to train and evaluate initial models on the wine dataset.
+*   **`count.py`**: A utility script used for Exploratory Data Analysis (EDA), counting target class distributions, or data summarization.
+*   **`wine_quality.py`**: The main  machine learning script used to train and evaluate initial models on the wine dataset.
 *   **`XGBoost_wine_quality.py`**: A specialized script that implements the **XGBoost** (eXtreme Gradient Boosting) algorithm to achieve higher predictive accuracy on the wine quality dataset.
-
-*(Note: `__pycache__` directories contain compiled Python bytecode files like `preprocess.cpython-313.pyc` and are generated automatically when the scripts are run.)*
 
 ## Prerequisites
 
